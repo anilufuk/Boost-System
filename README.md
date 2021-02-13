@@ -18,12 +18,12 @@ Tek yapmanız gereken dosyalardaki ID kısımlarını doldurmak, savage.js'ye at
 
 ### Sana bir sorum vardı?
 
-Savage#8888 (228971558972948491) Discord hesabıma ulaşabilirsiniz, eğer ulaşamazsanız discord.gg/serendia'da sorun, yol göstereceklerdir.
+Savage#8888 (228971558972948491) Discord hesabıma ulaşabilirsiniz, eğer ulaşamazsanız [discord.gg/serendia](https://discord.gg/serendia)'da sorun, yol göstereceklerdir.
 
 ### Bir hata buldum?
 
 Bana ulaşın, elimden geldiğince hızlı çözerim.
 
-## [Serendia](https://discord.gg/serendia) Ailesine ve ordan bu altyapıyı isteyenlere Sevgilerle <3
+## Serendia Ailesine ve ordan bu altyapıyı isteyenlere Sevgilerle <3
 ![Serendia](standard_11.gif)
 
