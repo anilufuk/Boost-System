@@ -7,8 +7,8 @@ exports.run = async (client, message, args, ayar, emoji) => {
     let tag = "" //tag sembolü varsa yazin cünkü isminin basina ekleyek olan sey yoksa bos birakin
 
 
-    let onay = "" //onay emojisi id tepki icin 
-    let iptal = "" //iptal emojisi id tepki icin
+    let onay = "" //onay emojisi id tepki icin örnek <:emojiismi:id>
+    let iptal = "" //iptal emojisi id tepki icin <:emojiismi:id>
     if(!message.member.roles.cache.has(boosterrol)) return message.channel.send(`**Bu komutu kullanabilmek için Sunucuya Takviye yapmalısın!** ${iptal}`) 
     if(message.channel.id !== kanalid) return message.channel.send(new Discord.MessageEmbed()
 .setAuthor(message.author.tag,  message.author.avatarURL({dynamic: true}))
