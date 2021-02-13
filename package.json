@@ -7,7 +7,7 @@
   "description": "This bot is a simple Boost System.",
   "main": "savage.js",
   "scripts": {
-    "start": "node savage.js"
+    "start": "node boot.js"
   },
   "dependencies": {
     "discord-logs": "^1.8.2",
