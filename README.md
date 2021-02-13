@@ -25,6 +25,5 @@ Savage#8888 (228971558972948491) Discord hesabıma ulaşabilirsiniz, eğer ulaş
 Bana ulaşın, elimden geldiğince hızlı çözerim.
 
 ## Serendia Ailesine ve ordan bu altyapıyı isteyenlere Sevgilerle <3
-[![SerendiaSquad](standard_11.gif)][discord]
-[discord]: https://discord.gg/https://discord.gg/serendia
+![Serendia](standard_11.gif)(https://discord.gg/serndia
 
