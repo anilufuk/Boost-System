@@ -9,14 +9,13 @@ exports.run = async (client, message, args, ayar, emoji) => {
 
     let onay = "" //onay emojisi id tepki icin 
     let iptal = "" //iptal emojisi id tepki icin
-    if(!message.member.roles.cache.has(boosterrol)) return message.channel.send(`**Bu komutu kullanabilmek için Sunucuya Takviye yapmalısın!** ${iptal}`).then( a=> a.react(iptal)) 
+    if(!message.member.roles.cache.has(boosterrol)) return message.channel.send(`**Bu komutu kullanabilmek için Sunucuya Takviye yapmalısın!** ${iptal}`) 
     if(message.channel.id !== kanalid) return message.channel.send(new Discord.MessageEmbed()
 .setAuthor(message.author.tag,  message.author.avatarURL({dynamic: true}))
 .setColor(renk)
     .setDescription(`**\`•\` <@${message.author.id}>, bu komutu sadece <#${kanalid}> kanalin da kullanabilirsin.**`)
 .setTimestamp()
 .setFooter(`© Savage Boost System`, "https://cdn.discordapp.com/emojis/785950806384836619.gif?v=1%22"))
-message.react(iptal);
 
   let boosternick = args.slice(0).join(' ')
   if(!boosternick) return message.reply("Yeni adını girmelisin.").then( a=> a.react(iptal))
