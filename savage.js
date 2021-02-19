@@ -12,6 +12,7 @@ client.on('guildMemberBoost', (member) => {
 
   let sunucuID = ("")
   let kanalID = ("")
+  let boostrol = ("")
 
   let boost = client.guilds.cache.get(sunucuID).premiumSubscriptionCount
   let tier = client.guilds.cache.get(sunucuID).premiumTier
@@ -19,7 +20,7 @@ client.on('guildMemberBoost', (member) => {
     const Savage = new Discord.MessageEmbed()
 .setColor("#ff66f0")
 .setAuthor(`${member.user.tag}`,member.user.avatarURL({dynamic: true}))
-.setDescription(`**<@${member.user.id}> sunucumuzu boostlayıp, bizi desteklediğin için teşekkürler!**\n**(Sunucumuzda şuan __${boost}__ Boost bulunmaktadır ve Sunucu Seviyesi __${tier}__.)**\n\n**Artık <@&739793401133793281> rolüne sahipsin ve** **__bazı ayrıcalıkların__** **var;**\n**• Sunucuda __kendi adını__** \`»\` **__!rich__ değiştirebileceksin.**\n**• Sunucudaki yetkililere ulaşıp sunucuya istediğin \`1 emojiyi\` ekletebilirsin.**`)
+.setDescription(`**<@${member.user.id}> sunucumuzu boostlayıp, bizi desteklediğin için teşekkürler!**\n**(Sunucumuzda şuan __${boost}__ Boost bulunmaktadır ve Sunucu Seviyesi __${tier}__.)**\n\n**Artık <@&${boostrol}> rolüne sahipsin ve** **__bazı ayrıcalıkların__** **var;**\n**• Sunucuda __kendi adını__** \`»\` **__!rich__ değiştirebileceksin.**\n**• Sunucudaki yetkililere ulaşıp sunucuya istediğin \`1 emojiyi\` ekletebilirsin.**`)
 .setTimestamp()
     //.addField("Sunucunun Boost sayısı:", `**${boost}**`,true)
     //.addField("Sunucunun Seviyesi:", `**${tier}**`, true)
@@ -33,6 +34,7 @@ client.on('guildMemberUnBoost', (member) => {
 
   let sunucuID = ("")
   let kanalID = ("")
+  let boostrol = ("")
 
   let boost = client.guilds.cache.get(sunucuID).premiumSubscriptionCount
   let tier = client.guilds.cache.get(sunucuID).premiumTier
@@ -40,7 +42,7 @@ client.on('guildMemberUnBoost', (member) => {
     const Savage = new Discord.MessageEmbed()
 .setColor("#ff66f0")
 .setAuthor(`${member.user.tag}`,member.user.avatarURL({dynamic: true}))
-.setDescription(`**<@${member.user.id}> sunucumuzu boostlamayı bıraktığı için tüm ayrıcalıkları sona erdi ve <@&739793401133793281> rolü alındı!** \n**(__${boost}__ Boost bulunmaktadır ve Sunucu Seviyesi __${tier}__.)**`)
+.setDescription(`**<@${member.user.id}> sunucumuzu boostlamayı bıraktığı için tüm ayrıcalıkları sona erdi ve <@&${boostrol}> rolü alındı!** \n**(__${boost}__ Boost bulunmaktadır ve Sunucu Seviyesi __${tier}__.)**`)
 .setTimestamp()
     //.addField("Sunucunun Boost sayısı:", `**${boost}**`,true)
     //.addField("Sunucunun Seviyesi:", `**${tier}**`, true)
